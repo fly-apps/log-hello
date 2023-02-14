@@ -22,6 +22,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v4
         with:
+          context: .
+          platforms: linux/amd64
           provenance: false
           push: true
           tags: flyio/log-hello:latest
