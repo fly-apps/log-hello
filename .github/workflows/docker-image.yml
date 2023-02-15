@@ -30,4 +30,4 @@ jobs:
           platforms: linux/amd64
           provenance: false
           push: true
-          tags: flyio/log-hello:latest
+          tags: flyio/log-hello
